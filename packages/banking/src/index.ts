@@ -144,6 +144,8 @@ export { EnableBankingApi } from "./providers/enablebanking/enablebanking-api";
 export { GoCardLessApi } from "./providers/gocardless/gocardless-api";
 export { PlaidApi } from "./providers/plaid/plaid-api";
 export { TellerApi } from "./providers/teller/teller-api";
+export { WealthReaderApi } from "./providers/wealthreader/wealthreader-api";
+export { WealthReaderProvider } from "./providers/wealthreader/wealthreader-provider";
 export { syncInstitutionLogos } from "./sync-logos";
 // Re-export types, provider APIs, and institution sync
 export type * from "./types";
